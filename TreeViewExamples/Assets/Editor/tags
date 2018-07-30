@@ -1,0 +1,276 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddChildrenRecursive	TreeViewExamples/BackendData/MyTreeElementGenerator.cs	/^		static void AddChildrenRecursive(TreeElement element, int numChildren, bool force, int numTotalElements, ref int allowedDepth, List<MyTreeElement> treeElements)$/;"	m	class:UnityEditor.TreeViewExamples.MyTreeElementGenerator	file:
+AddChildrenRecursive	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		void AddChildrenRecursive (T parent, int depth, IList<TreeViewItem> newRows)$/;"	m	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel	file:
+AddChildrenRecursive	TreeViewExamples/TransformsTreeView.cs	/^		void AddChildrenRecursive (GameObject go, TreeViewItem item, IList<TreeViewItem> rows)$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView	file:
+AddElement	TreeDataModel/TreeModel.cs	/^		public void AddElement (T element, TreeElement parent, int insertPosition)$/;"	m	class:UnityEditor.TreeViewExamples.T
+AddElements	TreeDataModel/TreeModel.cs	/^		public void AddElements (IList<T> elements, TreeElement parent, int insertPosition)$/;"	m	class:UnityEditor.TreeViewExamples.T
+AddRoot	TreeDataModel/TreeModel.cs	/^		public void AddRoot (T root)$/;"	m	class:UnityEditor.TreeViewExamples.T
+Awake	TreeViewExamples/BackendData/MyTreeAsset.cs	/^		void Awake ()$/;"	m	class:UnityEditor.TreeViewExamples.MyTreeAsset	file:
+BottomToolBar	TreeViewExamples/CustomHeightWindow.cs	/^		void BottomToolBar (Rect rect)$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightWindow	file:
+BottomToolBar	TreeViewExamples/MultiColumnWindow.cs	/^		void BottomToolBar (Rect rect)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnWindow	file:
+BuildRoot	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		protected override TreeViewItem BuildRoot()$/;"	m	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel
+BuildRoot	TreeViewExamples/SimpleTreeView.cs	/^		protected override TreeViewItem BuildRoot ()$/;"	m	class:UnityEditor.TreeViewExamples.SimpleTreeView
+BuildRoot	TreeViewExamples/TransformsTreeView.cs	/^		protected override TreeViewItem BuildRoot()$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView
+BuildRows	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		protected override IList<TreeViewItem> BuildRows (TreeViewItem root)$/;"	m	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel
+BuildRows	TreeViewExamples/MultiColumnTreeView.cs	/^		protected override IList<TreeViewItem> BuildRows(TreeViewItem root)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnTreeView
+BuildRows	TreeViewExamples/TransformsTreeView.cs	/^		protected override IList<TreeViewItem> BuildRows(TreeViewItem root)$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView
+CanMultiSelect	TreeViewExamples/MultiColumnTreeView.cs	/^		protected override bool CanMultiSelect (TreeViewItem item)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnTreeView
+CanRename	TreeViewExamples/CustomHeightTreeView.cs	/^		protected override bool CanRename(TreeViewItem item)$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightTreeView
+CanRename	TreeViewExamples/MultiColumnTreeView.cs	/^		protected override bool CanRename(TreeViewItem item)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnTreeView
+CanStartDrag	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		protected override bool CanStartDrag (CanStartDragArgs args)$/;"	m	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel
+CanStartDrag	TreeViewExamples/TransformsTreeView.cs	/^		protected override bool CanStartDrag (CanStartDragArgs args)$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView
+CellGUI	TreeViewExamples/MultiColumnTreeView.cs	/^		void CellGUI (Rect cellRect, TreeViewItem<MyTreeElement> item, MyColumns column, ref RowGUIArgs args)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnTreeView	file:
+Changed	TreeDataModel/TreeModel.cs	/^		void Changed ()$/;"	m	class:UnityEditor.TreeViewExamples.T	file:
+ColumnHeaderGUI	TreeViewExamples/MultiColumnWindow.cs	/^		protected override void ColumnHeaderGUI (MultiColumnHeaderState.Column column, Rect headerRect, int columnIndex)$/;"	m	class:UnityEditor.TreeViewExamples.MyMultiColumnHeader
+ControlsGUI	TreeViewExamples/CustomHeightTreeView.cs	/^		void ControlsGUI(Rect controlsRect, TreeViewItem<MyTreeElement> item)$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightTreeView	file:
+CreateDefaultMultiColumnHeaderState	TreeViewExamples/MultiColumnTreeView.cs	/^		public static MultiColumnHeaderState CreateDefaultMultiColumnHeaderState(float treeViewWidth)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnTreeView
+CreateTreeViewItemForGameObject	TreeViewExamples/TransformsTreeView.cs	/^		static TreeViewItem CreateTreeViewItemForGameObject (GameObject gameObject)$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView	file:
+CustomHeightTreeView	TreeViewExamples/CustomHeightTreeView.cs	/^		public CustomHeightTreeView(TreeViewState state, TreeModel<MyTreeElement> model)$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightTreeView
+CustomHeightTreeView	TreeViewExamples/CustomHeightTreeView.cs	/^	internal class CustomHeightTreeView : TreeViewWithTreeModel<MyTreeElement>$/;"	c	namespace:UnityEditor.TreeViewExamples
+CustomHeightWindow	TreeViewExamples/CustomHeightWindow.cs	/^	class CustomHeightWindow : EditorWindow$/;"	c	namespace:UnityEditor.TreeViewExamples
+DefaultHeader	TreeViewExamples/MultiColumnWindow.cs	/^			DefaultHeader,$/;"	e	enum:UnityEditor.TreeViewExamples.MyMultiColumnHeader.Mode	file:
+DoToolbar	TreeViewExamples/SimpleTreeViewWindow.cs	/^		void DoToolbar()$/;"	m	class:UnityEditor.TreeViewExamples.SimpleTreeViewWindow	file:
+DoToolbar	TreeViewExamples/TransformsTreeViewWindow.cs	/^		void DoToolbar()$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeWindow	file:
+DoTreeView	TreeViewExamples/BackendData/MyTreeAssetEditor.cs	/^		void DoTreeView (Rect rect)$/;"	m	class:UnityEditor.TreeViewExamples.MyTreeAssetEditor	file:
+DoTreeView	TreeViewExamples/CustomHeightWindow.cs	/^		void DoTreeView (Rect rect)$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightWindow	file:
+DoTreeView	TreeViewExamples/MultiColumnWindow.cs	/^		void DoTreeView (Rect rect)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnWindow	file:
+DoTreeView	TreeViewExamples/SimpleTreeViewWindow.cs	/^		void DoTreeView()$/;"	m	class:UnityEditor.TreeViewExamples.SimpleTreeViewWindow	file:
+DoTreeView	TreeViewExamples/TransformsTreeViewWindow.cs	/^		void DoTreeView ()$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeWindow	file:
+DrawItemBackground	TreeViewExamples/CustomHeightTreeView.cs	/^		void DrawItemBackground (Rect bgRect)$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightTreeView	file:
+Find	TreeDataModel/TreeModel.cs	/^		public T Find (int id)$/;"	m	class:UnityEditor.TreeViewExamples.T
+FindCommonAncestorsWithinListWorks	TreeDataModel/TreeElementUtility.cs	/^		public static void FindCommonAncestorsWithinListWorks()$/;"	m	class:UnityEditor.TreeViewExamples.TreeElementUtilityTests
+GenerateRandomTree	TreeViewExamples/BackendData/MyTreeElementGenerator.cs	/^		public static List<MyTreeElement> GenerateRandomTree(int numTotalElements)$/;"	m	class:UnityEditor.TreeViewExamples.MyTreeElementGenerator
+GenerateUniqueID	TreeDataModel/TreeModel.cs	/^		public int GenerateUniqueID ()$/;"	m	class:UnityEditor.TreeViewExamples.T
+GetAdjustedInsertIndex	TreeViewExamples/TransformsTreeView.cs	/^		int GetAdjustedInsertIndex (Transform parent, Transform transformToInsert, int insertIndex)$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView	file:
+GetAncestors	TreeDataModel/TreeModel.cs	/^		public IList<int> GetAncestors (int id)$/;"	m	class:UnityEditor.TreeViewExamples.T
+GetAncestors	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		protected override IList<int> GetAncestors (int id)$/;"	m	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel
+GetAncestors	TreeViewExamples/TransformsTreeView.cs	/^		protected override IList<int> GetAncestors (int id)$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView
+GetCustomRowHeight	TreeViewExamples/CustomHeightTreeView.cs	/^		protected override float GetCustomRowHeight (int row, TreeViewItem item)$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightTreeView
+GetData	TreeViewExamples/CustomHeightWindow.cs	/^		IList<MyTreeElement> GetData ()$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightWindow	file:
+GetData	TreeViewExamples/MultiColumnWindow.cs	/^		IList<MyTreeElement> GetData ()$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnWindow	file:
+GetDescendantsThatHaveChildren	TreeDataModel/TreeModel.cs	/^		public IList<int> GetDescendantsThatHaveChildren (int id)$/;"	m	class:UnityEditor.TreeViewExamples.T
+GetDescendantsThatHaveChildren	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		protected override IList<int> GetDescendantsThatHaveChildren (int id)$/;"	m	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel
+GetDescendantsThatHaveChildren	TreeViewExamples/TransformsTreeView.cs	/^		protected override IList<int> GetDescendantsThatHaveChildren (int id)$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView
+GetGameObject	TreeViewExamples/TransformsTreeView.cs	/^		GameObject GetGameObject (int instanceID)$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView	file:
+GetIcon1Index	TreeViewExamples/MultiColumnTreeView.cs	/^		int GetIcon1Index(TreeViewItem<MyTreeElement> item)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnTreeView	file:
+GetIcon2Index	TreeViewExamples/MultiColumnTreeView.cs	/^		int GetIcon2Index (TreeViewItem<MyTreeElement> item)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnTreeView	file:
+GetParentsBelowStackBased	TreeDataModel/TreeModel.cs	/^		IList<int> GetParentsBelowStackBased(TreeElement searchFromThis)$/;"	m	class:UnityEditor.TreeViewExamples.T	file:
+GetRenameRect	TreeViewExamples/CustomHeightTreeView.cs	/^		protected override Rect GetRenameRect (Rect rowRect, int row, TreeViewItem item)$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightTreeView
+GetRenameRect	TreeViewExamples/MultiColumnTreeView.cs	/^		protected override Rect GetRenameRect (Rect rowRect, int row, TreeViewItem item)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnTreeView
+GetWindow	TreeViewExamples/CustomHeightWindow.cs	/^		public static CustomHeightWindow GetWindow()$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightWindow
+GetWindow	TreeViewExamples/MultiColumnWindow.cs	/^		public static MultiColumnWindow GetWindow ()$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnWindow
+HandleDragAndDrop	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		protected override DragAndDropVisualMode HandleDragAndDrop (DragAndDropArgs args)$/;"	m	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel
+HandleDragAndDrop	TreeViewExamples/TransformsTreeView.cs	/^		protected override DragAndDropVisualMode HandleDragAndDrop (DragAndDropArgs args)$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView
+HeaderGUI	TreeViewExamples/CustomHeightTreeView.cs	/^		void HeaderGUI (Rect headerRect, string label, TreeViewItem<MyTreeElement> item)$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightTreeView	file:
+IDCounter	TreeViewExamples/BackendData/MyTreeElementGenerator.cs	/^		static int IDCounter;$/;"	f	class:UnityEditor.TreeViewExamples.MyTreeElementGenerator	file:
+Icon1	TreeViewExamples/MultiColumnTreeView.cs	/^			Icon1,$/;"	e	enum:UnityEditor.TreeViewExamples.MultiColumnTreeView.MyColumns	file:
+Icon2	TreeViewExamples/MultiColumnTreeView.cs	/^			Icon2,$/;"	e	enum:UnityEditor.TreeViewExamples.MultiColumnTreeView.MyColumns	file:
+Init	TreeDataModel/TreeModel.cs	/^		void Init (IList<T> data)$/;"	m	class:UnityEditor.TreeViewExamples.T	file:
+Init	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		void Init (TreeModel<T> model)$/;"	m	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel	file:
+InitIfNeeded	TreeViewExamples/CustomHeightWindow.cs	/^		void InitIfNeeded ()$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightWindow	file:
+InitIfNeeded	TreeViewExamples/MultiColumnWindow.cs	/^		void InitIfNeeded ()$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnWindow	file:
+InitialOrder	TreeViewExamples/MultiColumnTreeView.cs	/^		IOrderedEnumerable<TreeViewItem<MyTreeElement>> InitialOrder(IEnumerable<TreeViewItem<MyTreeElement>> myTypes, int[] history)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnTreeView	file:
+IsDescendantOf	TreeViewExamples/TransformsTreeView.cs	/^		static bool IsDescendantOf (Transform transform, List<Transform> transforms)$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView	file:
+IsHoveredAChildOfDragged	TreeViewExamples/TransformsTreeView.cs	/^		bool IsHoveredAChildOfDragged (Transform hovered, Transform dragged)$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView	file:
+IsValidReparenting	TreeViewExamples/TransformsTreeView.cs	/^		bool IsValidReparenting (Transform parent, List<Transform> transformsToMove)$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView	file:
+LargeHeader	TreeViewExamples/MultiColumnWindow.cs	/^			LargeHeader,$/;"	e	enum:UnityEditor.TreeViewExamples.MyMultiColumnHeader.Mode	file:
+MinimumHeaderWithoutSorting	TreeViewExamples/MultiColumnWindow.cs	/^			MinimumHeaderWithoutSorting$/;"	e	enum:UnityEditor.TreeViewExamples.MyMultiColumnHeader.Mode	file:
+Mode	TreeViewExamples/MultiColumnWindow.cs	/^		public enum Mode$/;"	g	class:UnityEditor.TreeViewExamples.MyMultiColumnHeader
+ModelChanged	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		void ModelChanged ()$/;"	m	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel	file:
+MoveElements	TreeDataModel/TreeModel.cs	/^		public void MoveElements(TreeElement parentElement, int insertionIndex, List<TreeElement> elements)$/;"	m	class:UnityEditor.TreeViewExamples.T
+MultiColumnTreeView	TreeViewExamples/MultiColumnTreeView.cs	/^		public MultiColumnTreeView (TreeViewState state, MultiColumnHeader multicolumnHeader, TreeModel<MyTreeElement> model) : base (state, multicolumnHeader, model)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnTreeView
+MultiColumnTreeView	TreeViewExamples/MultiColumnTreeView.cs	/^	internal class MultiColumnTreeView : TreeViewWithTreeModel<MyTreeElement>$/;"	c	namespace:UnityEditor.TreeViewExamples
+MultiColumnWindow	TreeViewExamples/MultiColumnWindow.cs	/^	class MultiColumnWindow : EditorWindow$/;"	c	namespace:UnityEditor.TreeViewExamples
+MyColumns	TreeViewExamples/MultiColumnTreeView.cs	/^		enum MyColumns$/;"	g	class:UnityEditor.TreeViewExamples.MultiColumnTreeView
+MyExtensionMethods	TreeViewExamples/MultiColumnTreeView.cs	/^	static class MyExtensionMethods$/;"	c	namespace:UnityEditor.TreeViewExamples
+MyMultiColumnHeader	TreeViewExamples/MultiColumnWindow.cs	/^		public MyMultiColumnHeader(MultiColumnHeaderState state)$/;"	m	class:UnityEditor.TreeViewExamples.MyMultiColumnHeader
+MyMultiColumnHeader	TreeViewExamples/MultiColumnWindow.cs	/^	internal class MyMultiColumnHeader : MultiColumnHeader$/;"	c	namespace:UnityEditor.TreeViewExamples
+MyTreeAsset	TreeViewExamples/BackendData/MyTreeAsset.cs	/^	public class MyTreeAsset : ScriptableObject$/;"	c	namespace:UnityEditor.TreeViewExamples
+MyTreeAssetEditor	TreeViewExamples/BackendData/MyTreeAssetEditor.cs	/^	public class MyTreeAssetEditor : Editor$/;"	c	namespace:UnityEditor.TreeViewExamples
+MyTreeElement	TreeViewExamples/BackendData/MyTreeElement.cs	/^		public MyTreeElement (string name, int depth, int id) : base (name, depth, id)$/;"	m	class:UnityEditor.TreeViewExamples.MyTreeElement
+MyTreeElement	TreeViewExamples/BackendData/MyTreeElement.cs	/^	internal class MyTreeElement : TreeElement$/;"	c	namespace:UnityEditor.TreeViewExamples
+MyTreeElementGenerator	TreeViewExamples/BackendData/MyTreeElementGenerator.cs	/^	static class MyTreeElementGenerator$/;"	c	namespace:UnityEditor.TreeViewExamples
+MyTreeView	TreeViewExamples/BackendData/MyTreeAssetEditor.cs	/^			public MyTreeView(TreeViewState state, TreeModel<MyTreeElement> model)$/;"	m	class:UnityEditor.TreeViewExamples.MyTreeAssetEditor.MyTreeView
+MyTreeView	TreeViewExamples/BackendData/MyTreeAssetEditor.cs	/^		class MyTreeView : TreeViewWithTreeModel<MyTreeElement>$/;"	c	class:UnityEditor.TreeViewExamples.MyTreeAssetEditor
+Name	TreeViewExamples/MultiColumnTreeView.cs	/^			Name,$/;"	e	enum:UnityEditor.TreeViewExamples.MultiColumnTreeView.MyColumns	file:
+Name	TreeViewExamples/MultiColumnTreeView.cs	/^			Name,$/;"	e	enum:UnityEditor.TreeViewExamples.MultiColumnTreeView.SortOption	file:
+OnBeforeDroppingDraggedItems	TreeViewExamples/BackendData/MyTreeAssetEditor.cs	/^		void OnBeforeDroppingDraggedItems (IList<TreeViewItem> draggedRows)$/;"	m	class:UnityEditor.TreeViewExamples.MyTreeAssetEditor	file:
+OnDisable	TreeViewExamples/BackendData/MyTreeAssetEditor.cs	/^		void OnDisable ()$/;"	m	class:UnityEditor.TreeViewExamples.MyTreeAssetEditor	file:
+OnDropDraggedElementsAtIndex	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		public virtual void OnDropDraggedElementsAtIndex (List<TreeViewItem> draggedRows, T parent, int insertIndex)$/;"	m	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel
+OnEnable	TreeViewExamples/BackendData/MyTreeAssetEditor.cs	/^		void OnEnable ()$/;"	m	class:UnityEditor.TreeViewExamples.MyTreeAssetEditor	file:
+OnEnable	TreeViewExamples/SimpleTreeViewWindow.cs	/^		void OnEnable ()$/;"	m	class:UnityEditor.TreeViewExamples.SimpleTreeViewWindow	file:
+OnEnable	TreeViewExamples/TransformsTreeViewWindow.cs	/^		void OnEnable ()$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeWindow	file:
+OnGUI	TreeViewExamples/CustomHeightTreeView.cs	/^		public override void OnGUI (Rect rect)$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightTreeView
+OnGUI	TreeViewExamples/CustomHeightWindow.cs	/^		void OnGUI ()$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightWindow	file:
+OnGUI	TreeViewExamples/MultiColumnWindow.cs	/^		void OnGUI ()$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnWindow	file:
+OnGUI	TreeViewExamples/SimpleTreeViewWindow.cs	/^		void OnGUI ()$/;"	m	class:UnityEditor.TreeViewExamples.SimpleTreeViewWindow	file:
+OnGUI	TreeViewExamples/TransformsTreeViewWindow.cs	/^		void OnGUI ()$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeWindow	file:
+OnHierarchyChange	TreeViewExamples/TransformsTreeViewWindow.cs	/^		void OnHierarchyChange()$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeWindow	file:
+OnInspectorGUI	TreeViewExamples/BackendData/MyTreeAssetEditor.cs	/^		public override void OnInspectorGUI ()$/;"	m	class:UnityEditor.TreeViewExamples.MyTreeAssetEditor
+OnOpenAsset	TreeViewExamples/CustomHeightWindow.cs	/^		public static bool OnOpenAsset (int instanceID, int line)$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightWindow
+OnOpenAsset	TreeViewExamples/MultiColumnWindow.cs	/^		public static bool OnOpenAsset (int instanceID, int line)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnWindow
+OnSelectionChange	TreeViewExamples/CustomHeightWindow.cs	/^		void OnSelectionChange ()$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightWindow	file:
+OnSelectionChange	TreeViewExamples/MultiColumnWindow.cs	/^		void OnSelectionChange ()$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnWindow	file:
+OnSelectionChange	TreeViewExamples/TransformsTreeViewWindow.cs	/^		void OnSelectionChange ()$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeWindow	file:
+OnSortingChanged	TreeViewExamples/MultiColumnTreeView.cs	/^		void OnSortingChanged (MultiColumnHeader multiColumnHeader)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnTreeView	file:
+OnUndoRedoPerformed	TreeViewExamples/BackendData/MyTreeAssetEditor.cs	/^		void OnUndoRedoPerformed ()$/;"	m	class:UnityEditor.TreeViewExamples.MyTreeAssetEditor	file:
+Order	TreeViewExamples/MultiColumnTreeView.cs	/^		public static IOrderedEnumerable<T> Order<T, TKey>(this IEnumerable<T> source, Func<T, TKey> selector, bool ascending)$/;"	m	class:UnityEditor.TreeViewExamples.MyExtensionMethods
+RemoveElements	TreeDataModel/TreeModel.cs	/^		public void RemoveElements (IList<T> elements)$/;"	m	class:UnityEditor.TreeViewExamples.T
+RemoveElements	TreeDataModel/TreeModel.cs	/^		public void RemoveElements (IList<int> elementIDs)$/;"	m	class:UnityEditor.TreeViewExamples.T
+RemoveItemsThatAreDescendantsFromOtherItems	TreeViewExamples/TransformsTreeView.cs	/^		static void RemoveItemsThatAreDescendantsFromOtherItems (List<Transform> transforms)$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView	file:
+RenameEnded	TreeViewExamples/CustomHeightTreeView.cs	/^		protected override void RenameEnded(RenameEndedArgs args)$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightTreeView
+RenameEnded	TreeViewExamples/MultiColumnTreeView.cs	/^		protected override void RenameEnded(RenameEndedArgs args)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnTreeView
+RowGUI	TreeViewExamples/CustomHeightTreeView.cs	/^		protected override void RowGUI (RowGUIArgs args)$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightTreeView
+RowGUI	TreeViewExamples/MultiColumnTreeView.cs	/^		protected override void RowGUI (RowGUIArgs args)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnTreeView
+RowGUI	TreeViewExamples/TransformsTreeView.cs	/^		protected override void RowGUI (RowGUIArgs args)$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView
+Search	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		void Search(T searchFromThis, string search, List<TreeViewItem> result)$/;"	m	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel	file:
+SearchBar	TreeViewExamples/BackendData/MyTreeAssetEditor.cs	/^		void SearchBar (Rect rect)$/;"	m	class:UnityEditor.TreeViewExamples.MyTreeAssetEditor	file:
+SearchBar	TreeViewExamples/CustomHeightWindow.cs	/^		void SearchBar (Rect rect)$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightWindow	file:
+SearchBar	TreeViewExamples/MultiColumnWindow.cs	/^		void SearchBar (Rect rect)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnWindow	file:
+SelectionChanged	TreeViewExamples/TransformsTreeView.cs	/^		protected override void SelectionChanged (IList<int> selectedIds)$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView
+SetData	TreeDataModel/TreeModel.cs	/^		public void SetData (IList<T> data)$/;"	m	class:UnityEditor.TreeViewExamples.T
+SetTreeAsset	TreeViewExamples/CustomHeightWindow.cs	/^		void SetTreeAsset (MyTreeAsset myTreeAsset)$/;"	m	class:UnityEditor.TreeViewExamples.CustomHeightWindow	file:
+SetTreeAsset	TreeViewExamples/MultiColumnWindow.cs	/^		void SetTreeAsset (MyTreeAsset myTreeAsset)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnWindow	file:
+SetupDragAndDrop	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		protected override void SetupDragAndDrop(SetupDragAndDropArgs args)$/;"	m	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel
+SetupDragAndDrop	TreeViewExamples/TransformsTreeView.cs	/^		protected override void SetupDragAndDrop (SetupDragAndDropArgs args)$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView
+ShowWindow	TreeViewExamples/SimpleTreeViewWindow.cs	/^		static void ShowWindow ()$/;"	m	class:UnityEditor.TreeViewExamples.SimpleTreeViewWindow	file:
+ShowWindow	TreeViewExamples/TransformsTreeViewWindow.cs	/^		static void ShowWindow()$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeWindow	file:
+SimpleTreeView	TreeViewExamples/SimpleTreeView.cs	/^		public SimpleTreeView(TreeViewState treeViewState)$/;"	m	class:UnityEditor.TreeViewExamples.SimpleTreeView
+SimpleTreeView	TreeViewExamples/SimpleTreeView.cs	/^	class SimpleTreeView : TreeView$/;"	c	namespace:UnityEditor.TreeViewExamples
+SimpleTreeViewWindow	TreeViewExamples/SimpleTreeViewWindow.cs	/^	class SimpleTreeViewWindow : EditorWindow$/;"	c	namespace:UnityEditor.TreeViewExamples
+SortByMultipleColumns	TreeViewExamples/MultiColumnTreeView.cs	/^		void SortByMultipleColumns ()$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnTreeView	file:
+SortIfNeeded	TreeViewExamples/MultiColumnTreeView.cs	/^		void SortIfNeeded (TreeViewItem root, IList<TreeViewItem> rows)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnTreeView	file:
+SortOption	TreeViewExamples/MultiColumnTreeView.cs	/^		public enum SortOption$/;"	g	class:UnityEditor.TreeViewExamples.MultiColumnTreeView
+SortSearchResult	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		protected virtual void SortSearchResult (List<TreeViewItem> rows)$/;"	m	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel
+Styles	TreeViewExamples/CustomHeightTreeView.cs	/^		static class Styles$/;"	c	class:UnityEditor.TreeViewExamples.CustomHeightTreeView
+T	TreeDataModel/TreeModel.cs	/^	public class TreeModel<T> where T : TreeElement$/;"	c	namespace:UnityEditor.TreeViewExamples
+TestElement	TreeDataModel/TreeElementUtility.cs	/^			public TestElement (string name, int depth)$/;"	m	class:UnityEditor.TreeViewExamples.TreeElementUtilityTests.TestElement
+TestElement	TreeDataModel/TreeElementUtility.cs	/^		class TestElement : TreeElement$/;"	c	class:UnityEditor.TreeViewExamples.TreeElementUtilityTests
+TestListToTreeThrowsExceptionIfRootIsInvalidDepth	TreeDataModel/TreeElementUtility.cs	/^		public static void TestListToTreeThrowsExceptionIfRootIsInvalidDepth()$/;"	m	class:UnityEditor.TreeViewExamples.TreeElementUtilityTests
+TestListToTreeWorks	TreeDataModel/TreeElementUtility.cs	/^		public static void TestListToTreeWorks()$/;"	m	class:UnityEditor.TreeViewExamples.TreeElementUtilityTests
+TestTreeModelCanAddElements	TreeDataModel/TreeModel.cs	/^		public static void TestTreeModelCanAddElements()$/;"	m	class:UnityEditor.TreeViewExamples.TreeModelTests
+TestTreeModelCanRemoveElements	TreeDataModel/TreeModel.cs	/^		public static void TestTreeModelCanRemoveElements()$/;"	m	class:UnityEditor.TreeViewExamples.TreeModelTests
+TestTreeToListWorks	TreeDataModel/TreeElementUtility.cs	/^		public static void TestTreeToListWorks()$/;"	m	class:UnityEditor.TreeViewExamples.TreeElementUtilityTests
+ThenBy	TreeViewExamples/MultiColumnTreeView.cs	/^		public static IOrderedEnumerable<T> ThenBy<T, TKey>(this IOrderedEnumerable<T> source, Func<T, TKey> selector, bool ascending)$/;"	m	class:UnityEditor.TreeViewExamples.MyExtensionMethods
+ToolBar	TreeViewExamples/BackendData/MyTreeAssetEditor.cs	/^		void ToolBar ()$/;"	m	class:UnityEditor.TreeViewExamples.MyTreeAssetEditor	file:
+TransformTreeView	TreeViewExamples/TransformsTreeView.cs	/^		public TransformTreeView (TreeViewState state)$/;"	m	class:UnityEditor.TreeViewExamples.TransformTreeView
+TransformTreeView	TreeViewExamples/TransformsTreeView.cs	/^	class TransformTreeView : TreeView$/;"	c	namespace:UnityEditor.TreeViewExamples
+TransformTreeWindow	TreeViewExamples/TransformsTreeViewWindow.cs	/^	class TransformTreeWindow : EditorWindow$/;"	c	namespace:UnityEditor.TreeViewExamples
+TreeElement	TreeDataModel/TreeElement.cs	/^		public TreeElement ()$/;"	m	class:UnityEditor.TreeViewExamples.TreeElement
+TreeElement	TreeDataModel/TreeElement.cs	/^		public TreeElement (string name, int depth, int id)$/;"	m	class:UnityEditor.TreeViewExamples.TreeElement
+TreeElement	TreeDataModel/TreeElement.cs	/^	public class TreeElement$/;"	c	namespace:UnityEditor.TreeViewExamples
+TreeElement	TreeDataModel/TreeElementUtility.cs	/^		public static IList<T> FindCommonAncestorsWithinList<T>(IList<T> elements) where T : TreeElement$/;"	p	class:UnityEditor.TreeViewExamples.TreeElementUtility
+TreeElement	TreeDataModel/TreeElementUtility.cs	/^		public static T ListToTree<T>(IList<T> list) where T : TreeElement$/;"	p	class:UnityEditor.TreeViewExamples.TreeElementUtility
+TreeElement	TreeDataModel/TreeElementUtility.cs	/^		public static void TreeToList<T>(T root, IList<T> result) where T : TreeElement$/;"	p	class:UnityEditor.TreeViewExamples.TreeElementUtility
+TreeElement	TreeDataModel/TreeElementUtility.cs	/^		public static void UpdateDepthValues<T>(T root) where T : TreeElement$/;"	p	class:UnityEditor.TreeViewExamples.TreeElementUtility
+TreeElement	TreeDataModel/TreeElementUtility.cs	/^		public static void ValidateDepthValues<T>(IList<T> list) where T : TreeElement$/;"	p	class:UnityEditor.TreeViewExamples.TreeElementUtility
+TreeElement	TreeDataModel/TreeElementUtility.cs	/^		static bool IsChildOf<T>(T child, IList<T> elements) where T : TreeElement$/;"	p	class:UnityEditor.TreeViewExamples.TreeElementUtility
+TreeElementUtility	TreeDataModel/TreeElementUtility.cs	/^	public static class TreeElementUtility$/;"	c	namespace:UnityEditor.TreeViewExamples
+TreeElementUtilityTests	TreeDataModel/TreeElementUtility.cs	/^	class TreeElementUtilityTests$/;"	c	namespace:UnityEditor.TreeViewExamples
+TreeModel	TreeDataModel/TreeModel.cs	/^		public TreeModel (IList<T> data)$/;"	m	class:UnityEditor.TreeViewExamples.T
+TreeModelTests	TreeDataModel/TreeModel.cs	/^	class TreeModelTests$/;"	c	namespace:UnityEditor.TreeViewExamples
+TreeToList	TreeViewExamples/MultiColumnTreeView.cs	/^		public static void TreeToList (TreeViewItem root, IList<TreeViewItem> result)$/;"	m	class:UnityEditor.TreeViewExamples.MultiColumnTreeView
+TreeViewItem	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		public TreeViewItem (int id, int depth, string displayName, T data) : base (id, depth, displayName)$/;"	m	class:UnityEditor.TreeViewExamples.TreeViewItem
+TreeViewItem	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^	internal class TreeViewItem<T> : TreeViewItem where T : TreeElement$/;"	c	namespace:UnityEditor.TreeViewExamples
+TreeViewWithTreeModel	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		public TreeViewWithTreeModel (TreeViewState state, MultiColumnHeader multiColumnHeader, TreeModel<T> model)$/;"	m	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel
+TreeViewWithTreeModel	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		public TreeViewWithTreeModel (TreeViewState state, TreeModel<T> model) : base (state)$/;"	m	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel
+TreeViewWithTreeModel	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^	internal class TreeViewWithTreeModel<T> : TreeView where T : TreeElement$/;"	c	namespace:UnityEditor.TreeViewExamples
+UnityEditor.TreeViewExamples	TreeDataModel/TreeElement.cs	/^namespace UnityEditor.TreeViewExamples$/;"	n
+UnityEditor.TreeViewExamples	TreeDataModel/TreeElementUtility.cs	/^namespace UnityEditor.TreeViewExamples$/;"	n
+UnityEditor.TreeViewExamples	TreeDataModel/TreeModel.cs	/^namespace UnityEditor.TreeViewExamples$/;"	n
+UnityEditor.TreeViewExamples	TreeViewExamples/BackendData/MyTreeAsset.cs	/^namespace UnityEditor.TreeViewExamples$/;"	n
+UnityEditor.TreeViewExamples	TreeViewExamples/BackendData/MyTreeAssetEditor.cs	/^namespace UnityEditor.TreeViewExamples$/;"	n
+UnityEditor.TreeViewExamples	TreeViewExamples/BackendData/MyTreeElement.cs	/^namespace UnityEditor.TreeViewExamples$/;"	n
+UnityEditor.TreeViewExamples	TreeViewExamples/BackendData/MyTreeElementGenerator.cs	/^namespace UnityEditor.TreeViewExamples$/;"	n
+UnityEditor.TreeViewExamples	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^namespace UnityEditor.TreeViewExamples$/;"	n
+UnityEditor.TreeViewExamples	TreeViewExamples/CustomHeightTreeView.cs	/^namespace UnityEditor.TreeViewExamples$/;"	n
+UnityEditor.TreeViewExamples	TreeViewExamples/CustomHeightWindow.cs	/^namespace UnityEditor.TreeViewExamples$/;"	n
+UnityEditor.TreeViewExamples	TreeViewExamples/MultiColumnTreeView.cs	/^namespace UnityEditor.TreeViewExamples$/;"	n
+UnityEditor.TreeViewExamples	TreeViewExamples/MultiColumnWindow.cs	/^namespace UnityEditor.TreeViewExamples$/;"	n
+UnityEditor.TreeViewExamples	TreeViewExamples/SimpleTreeView.cs	/^namespace UnityEditor.TreeViewExamples$/;"	n
+UnityEditor.TreeViewExamples	TreeViewExamples/SimpleTreeViewWindow.cs	/^namespace UnityEditor.TreeViewExamples$/;"	n
+UnityEditor.TreeViewExamples	TreeViewExamples/TransformsTreeView.cs	/^namespace UnityEditor.TreeViewExamples$/;"	n
+UnityEditor.TreeViewExamples	TreeViewExamples/TransformsTreeViewWindow.cs	/^namespace UnityEditor.TreeViewExamples$/;"	n
+ValidDrag	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		bool ValidDrag(TreeViewItem parent, List<TreeViewItem> draggedItems)$/;"	m	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel	file:
+Value1	TreeViewExamples/MultiColumnTreeView.cs	/^			Value1,$/;"	e	enum:UnityEditor.TreeViewExamples.MultiColumnTreeView.MyColumns	file:
+Value1	TreeViewExamples/MultiColumnTreeView.cs	/^			Value1,$/;"	e	enum:UnityEditor.TreeViewExamples.MultiColumnTreeView.SortOption	file:
+Value2	TreeViewExamples/MultiColumnTreeView.cs	/^			Value2,$/;"	e	enum:UnityEditor.TreeViewExamples.MultiColumnTreeView.MyColumns	file:
+Value2	TreeViewExamples/MultiColumnTreeView.cs	/^			Value2,$/;"	e	enum:UnityEditor.TreeViewExamples.MultiColumnTreeView.SortOption	file:
+Value3	TreeViewExamples/MultiColumnTreeView.cs	/^			Value3,$/;"	e	enum:UnityEditor.TreeViewExamples.MultiColumnTreeView.MyColumns	file:
+Value3	TreeViewExamples/MultiColumnTreeView.cs	/^			Value3,$/;"	e	enum:UnityEditor.TreeViewExamples.MultiColumnTreeView.SortOption	file:
+asset	TreeViewExamples/BackendData/MyTreeAssetEditor.cs	/^		MyTreeAsset asset$/;"	p	class:UnityEditor.TreeViewExamples.MyTreeAssetEditor
+background	TreeViewExamples/CustomHeightTreeView.cs	/^			public static GUIStyle background = "RL Background";$/;"	f	class:UnityEditor.TreeViewExamples.CustomHeightTreeView.Styles
+beforeDroppingDraggedItems	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		public event Action<IList<TreeViewItem>>  beforeDroppingDraggedItems;$/;"	E	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel
+bottomToolbarRect	TreeViewExamples/CustomHeightWindow.cs	/^		Rect bottomToolbarRect$/;"	p	class:UnityEditor.TreeViewExamples.CustomHeightWindow
+bottomToolbarRect	TreeViewExamples/MultiColumnWindow.cs	/^		Rect bottomToolbarRect$/;"	p	class:UnityEditor.TreeViewExamples.MultiColumnWindow
+children	TreeDataModel/TreeElement.cs	/^		public List<TreeElement> children$/;"	p	class:UnityEditor.TreeViewExamples.TreeElement
+data	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		public T data { get; set; }$/;"	p	class:UnityEditor.TreeViewExamples.TreeViewItem
+depth	TreeDataModel/TreeElement.cs	/^		public int depth$/;"	p	class:UnityEditor.TreeViewExamples.TreeElement
+enabled	TreeViewExamples/BackendData/MyTreeElement.cs	/^		public bool enabled;$/;"	f	class:UnityEditor.TreeViewExamples.MyTreeElement
+floatValue1	TreeViewExamples/BackendData/MyTreeElement.cs	/^		public float floatValue1, floatValue2, floatValue3;$/;"	f	class:UnityEditor.TreeViewExamples.MyTreeElement
+floatValue2	TreeViewExamples/BackendData/MyTreeElement.cs	/^		public float floatValue1, floatValue2, floatValue3;$/;"	f	class:UnityEditor.TreeViewExamples.MyTreeElement
+floatValue3	TreeViewExamples/BackendData/MyTreeElement.cs	/^		public float floatValue1, floatValue2, floatValue3;$/;"	f	class:UnityEditor.TreeViewExamples.MyTreeElement
+hasChildren	TreeDataModel/TreeElement.cs	/^		public bool hasChildren$/;"	p	class:UnityEditor.TreeViewExamples.TreeElement
+headerBackground	TreeViewExamples/CustomHeightTreeView.cs	/^			public static GUIStyle headerBackground = "RL Header";$/;"	f	class:UnityEditor.TreeViewExamples.CustomHeightTreeView.Styles
+id	TreeDataModel/TreeElement.cs	/^		public int id$/;"	p	class:UnityEditor.TreeViewExamples.TreeElement
+kRowHeights	TreeViewExamples/MultiColumnTreeView.cs	/^		const float kRowHeights = 20f;$/;"	f	class:UnityEditor.TreeViewExamples.MultiColumnTreeView	file:
+kSessionStateKeyPrefix	TreeViewExamples/BackendData/MyTreeAssetEditor.cs	/^		const string kSessionStateKeyPrefix = "TVS";$/;"	f	class:UnityEditor.TreeViewExamples.MyTreeAssetEditor	file:
+kToggleWidth	TreeViewExamples/MultiColumnTreeView.cs	/^		const float kToggleWidth = 18f;$/;"	f	class:UnityEditor.TreeViewExamples.MultiColumnTreeView	file:
+k_GenericDragID	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		const string k_GenericDragID = "GenericDragColumnDragging";$/;"	f	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel	file:
+m_Children	TreeDataModel/TreeElement.cs	/^		[NonSerialized] List<TreeElement> m_Children;$/;"	f	class:UnityEditor.TreeViewExamples.TreeElement	file:
+m_Data	TreeDataModel/TreeModel.cs	/^		IList<T> m_Data;$/;"	f	class:UnityEditor.TreeViewExamples.T	file:
+m_Depth	TreeDataModel/TreeElement.cs	/^		[SerializeField] int m_Depth;$/;"	f	class:UnityEditor.TreeViewExamples.TreeElement	file:
+m_ID	TreeDataModel/TreeElement.cs	/^		[SerializeField] int m_ID;$/;"	f	class:UnityEditor.TreeViewExamples.TreeElement	file:
+m_Initialized	TreeViewExamples/CustomHeightWindow.cs	/^		[NonSerialized] bool m_Initialized;$/;"	f	class:UnityEditor.TreeViewExamples.CustomHeightWindow	file:
+m_Initialized	TreeViewExamples/MultiColumnWindow.cs	/^		[NonSerialized] bool m_Initialized;$/;"	f	class:UnityEditor.TreeViewExamples.MultiColumnWindow	file:
+m_MaxID	TreeDataModel/TreeModel.cs	/^		int m_MaxID;$/;"	f	class:UnityEditor.TreeViewExamples.T	file:
+m_Mode	TreeViewExamples/MultiColumnWindow.cs	/^		Mode m_Mode;$/;"	f	class:UnityEditor.TreeViewExamples.MyMultiColumnHeader	file:
+m_MultiColumnHeaderState	TreeViewExamples/MultiColumnWindow.cs	/^		[SerializeField] MultiColumnHeaderState m_MultiColumnHeaderState;$/;"	f	class:UnityEditor.TreeViewExamples.MultiColumnWindow	file:
+m_MyTreeAsset	TreeViewExamples/CustomHeightWindow.cs	/^		MyTreeAsset m_MyTreeAsset;$/;"	f	class:UnityEditor.TreeViewExamples.CustomHeightWindow	file:
+m_MyTreeAsset	TreeViewExamples/MultiColumnWindow.cs	/^		MyTreeAsset m_MyTreeAsset;$/;"	f	class:UnityEditor.TreeViewExamples.MultiColumnWindow	file:
+m_Name	TreeDataModel/TreeElement.cs	/^		[SerializeField] string m_Name;$/;"	f	class:UnityEditor.TreeViewExamples.TreeElement	file:
+m_Parent	TreeDataModel/TreeElement.cs	/^		[NonSerialized] TreeElement m_Parent;$/;"	f	class:UnityEditor.TreeViewExamples.TreeElement	file:
+m_Root	TreeDataModel/TreeModel.cs	/^		T m_Root;$/;"	f	class:UnityEditor.TreeViewExamples.T	file:
+m_Rows	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		readonly List<TreeViewItem> m_Rows = new List<TreeViewItem>(100);$/;"	f	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel	file:
+m_SearchField	TreeViewExamples/BackendData/MyTreeAssetEditor.cs	/^		SearchField m_SearchField;$/;"	f	class:UnityEditor.TreeViewExamples.MyTreeAssetEditor	file:
+m_SearchField	TreeViewExamples/CustomHeightWindow.cs	/^		SearchField m_SearchField;$/;"	f	class:UnityEditor.TreeViewExamples.CustomHeightWindow	file:
+m_SearchField	TreeViewExamples/MultiColumnWindow.cs	/^		SearchField m_SearchField;$/;"	f	class:UnityEditor.TreeViewExamples.MultiColumnWindow	file:
+m_SearchField	TreeViewExamples/SimpleTreeViewWindow.cs	/^		SearchField m_SearchField;$/;"	f	class:UnityEditor.TreeViewExamples.SimpleTreeViewWindow	file:
+m_SortOptions	TreeViewExamples/MultiColumnTreeView.cs	/^		SortOption[] m_SortOptions = $/;"	f	class:UnityEditor.TreeViewExamples.MultiColumnTreeView	file:
+m_TreeElements	TreeViewExamples/BackendData/MyTreeAsset.cs	/^		[SerializeField] List<MyTreeElement> m_TreeElements = new List<MyTreeElement> ();$/;"	f	class:UnityEditor.TreeViewExamples.MyTreeAsset	file:
+m_TreeModel	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		TreeModel<T> m_TreeModel;$/;"	f	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel	file:
+m_TreeView	TreeViewExamples/BackendData/MyTreeAssetEditor.cs	/^		MyTreeView m_TreeView;$/;"	f	class:UnityEditor.TreeViewExamples.MyTreeAssetEditor	file:
+m_TreeView	TreeViewExamples/CustomHeightWindow.cs	/^		CustomHeightTreeView m_TreeView;$/;"	f	class:UnityEditor.TreeViewExamples.CustomHeightWindow	file:
+m_TreeView	TreeViewExamples/MultiColumnWindow.cs	/^		MultiColumnTreeView m_TreeView;$/;"	f	class:UnityEditor.TreeViewExamples.MultiColumnWindow	file:
+m_TreeView	TreeViewExamples/SimpleTreeViewWindow.cs	/^		SimpleTreeView m_TreeView;$/;"	f	class:UnityEditor.TreeViewExamples.SimpleTreeViewWindow	file:
+m_TreeView	TreeViewExamples/TransformsTreeViewWindow.cs	/^		TreeView m_TreeView;$/;"	f	class:UnityEditor.TreeViewExamples.TransformTreeWindow	file:
+m_TreeViewState	TreeViewExamples/CustomHeightWindow.cs	/^		[SerializeField] TreeViewState m_TreeViewState; \/\/ Serialized in the window layout file so it survives assembly reloading$/;"	f	class:UnityEditor.TreeViewExamples.CustomHeightWindow	file:
+m_TreeViewState	TreeViewExamples/MultiColumnWindow.cs	/^		[SerializeField] TreeViewState m_TreeViewState; \/\/ Serialized in the window layout file so it survives assembly reloading$/;"	f	class:UnityEditor.TreeViewExamples.MultiColumnWindow	file:
+m_TreeViewState	TreeViewExamples/SimpleTreeViewWindow.cs	/^		[SerializeField] TreeViewState m_TreeViewState;$/;"	f	class:UnityEditor.TreeViewExamples.SimpleTreeViewWindow	file:
+m_TreeViewState	TreeViewExamples/TransformsTreeViewWindow.cs	/^		[SerializeField] TreeViewState m_TreeViewState;$/;"	f	class:UnityEditor.TreeViewExamples.TransformTreeWindow	file:
+material	TreeViewExamples/BackendData/MyTreeElement.cs	/^		public Material material;$/;"	f	class:UnityEditor.TreeViewExamples.MyTreeElement
+maxNumChildren	TreeViewExamples/BackendData/MyTreeElementGenerator.cs	/^		static int maxNumChildren = 10;$/;"	f	class:UnityEditor.TreeViewExamples.MyTreeElementGenerator	file:
+minNumChildren	TreeViewExamples/BackendData/MyTreeElementGenerator.cs	/^		static int minNumChildren = 5;$/;"	f	class:UnityEditor.TreeViewExamples.MyTreeElementGenerator	file:
+mode	TreeViewExamples/MultiColumnWindow.cs	/^		public Mode mode$/;"	p	class:UnityEditor.TreeViewExamples.MyMultiColumnHeader
+modelChanged	TreeDataModel/TreeModel.cs	/^		public event Action modelChanged;$/;"	E	class:UnityEditor.TreeViewExamples.T
+multiColumnTreeViewRect	TreeViewExamples/MultiColumnWindow.cs	/^		Rect multiColumnTreeViewRect$/;"	p	class:UnityEditor.TreeViewExamples.MultiColumnWindow
+name	TreeDataModel/TreeElement.cs	/^		public string name$/;"	p	class:UnityEditor.TreeViewExamples.TreeElement
+numberOfDataElements	TreeDataModel/TreeModel.cs	/^		public int numberOfDataElements$/;"	p	class:UnityEditor.TreeViewExamples.T
+parent	TreeDataModel/TreeElement.cs	/^		public TreeElement parent$/;"	p	class:UnityEditor.TreeViewExamples.TreeElement
+probabilityOfBeingLeaf	TreeViewExamples/BackendData/MyTreeElementGenerator.cs	/^		static float probabilityOfBeingLeaf = 0.5f;$/;"	f	class:UnityEditor.TreeViewExamples.MyTreeElementGenerator	file:
+root	TreeDataModel/TreeModel.cs	/^		public T root { get { return m_Root; } set { m_Root = value; } }$/;"	p	class:UnityEditor.TreeViewExamples.T
+s_TestIcons	TreeViewExamples/MultiColumnTreeView.cs	/^		static Texture2D[] s_TestIcons =$/;"	f	class:UnityEditor.TreeViewExamples.MultiColumnTreeView	file:
+showControls	TreeViewExamples/MultiColumnTreeView.cs	/^		public bool showControls = true;$/;"	f	class:UnityEditor.TreeViewExamples.MultiColumnTreeView
+text	TreeViewExamples/BackendData/MyTreeElement.cs	/^		public string text = "";$/;"	f	class:UnityEditor.TreeViewExamples.MyTreeElement
+toolbarRect	TreeViewExamples/CustomHeightWindow.cs	/^		Rect toolbarRect$/;"	p	class:UnityEditor.TreeViewExamples.CustomHeightWindow
+toolbarRect	TreeViewExamples/MultiColumnWindow.cs	/^		Rect toolbarRect$/;"	p	class:UnityEditor.TreeViewExamples.MultiColumnWindow
+treeChanged	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		public event Action treeChanged;$/;"	E	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel
+treeElements	TreeViewExamples/BackendData/MyTreeAsset.cs	/^		internal List<MyTreeElement> treeElements$/;"	p	class:UnityEditor.TreeViewExamples.MyTreeAsset
+treeModel	TreeViewExamples/BackendData/TreeViewWithTreeModel.cs	/^		public TreeModel<T> treeModel { get { return m_TreeModel; } }$/;"	p	class:UnityEditor.TreeViewExamples.TreeViewWithTreeModel
+treeView	TreeViewExamples/MultiColumnWindow.cs	/^		public MultiColumnTreeView treeView$/;"	p	class:UnityEditor.TreeViewExamples.MultiColumnWindow
+treeViewRect	TreeViewExamples/CustomHeightWindow.cs	/^		Rect treeViewRect$/;"	p	class:UnityEditor.TreeViewExamples.CustomHeightWindow
