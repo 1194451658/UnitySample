@@ -324,8 +324,10 @@ namespace UnityEditor.TreeViewExamples
 			{
 				new MultiColumnHeaderState.Column 
 				{
-					headerContent = new GUIContent(EditorGUIUtility.FindTexture("FilterByLabel"), "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "),
-					contextMenuText = "Asset",
+					headerContent = new GUIContent(
+						EditorGUIUtility.FindTexture("FilterByLabel"),
+						 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "),
+					contextMenuText = "Asset",						// context菜单上的显示
 					headerTextAlignment = TextAlignment.Center,
 					sortedAscending = true,
 					sortingArrowAlignment = TextAlignment.Right,
@@ -337,7 +339,9 @@ namespace UnityEditor.TreeViewExamples
 				},
 				new MultiColumnHeaderState.Column 
 				{
-					headerContent = new GUIContent(EditorGUIUtility.FindTexture("FilterByType"), "Sed hendrerit mi enim, eu iaculis leo tincidunt at."),
+					headerContent = new GUIContent(
+						EditorGUIUtility.FindTexture("FilterByType"),
+						 "Sed hendrerit mi enim, eu iaculis leo tincidunt at."),
 					contextMenuText = "Type",
 					headerTextAlignment = TextAlignment.Center,
 					sortedAscending = true,

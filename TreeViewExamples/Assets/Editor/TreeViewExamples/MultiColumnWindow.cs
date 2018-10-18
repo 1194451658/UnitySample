@@ -49,6 +49,11 @@ namespace UnityEditor.TreeViewExamples
 			m_MyTreeAsset = myTreeAsset;
 			m_Initialized = false;
 		}
+		
+
+		// -------------------------
+		//		自定义排版的方法
+		// -------------------------
 
 		// TreeView显示区域
 		Rect multiColumnTreeViewRect
@@ -82,11 +87,24 @@ namespace UnityEditor.TreeViewExamples
 					m_TreeViewState = new TreeViewState();
 
 				bool firstInit = m_MultiColumnHeaderState == null;
+
+				// headerState: MultiColumnHeaderState结构
 				var headerState = MultiColumnTreeView.CreateDefaultMultiColumnHeaderState(multiColumnTreeViewRect.width);
+
+				// 检查，是否有序列化的MultiColumnHeaderState数据，可以使用
+				// CanOverwriteSerializedFields:
+				// Checks if the source state can transfer its serialized data to the destination state.
+				// Some of the fields in the MultiColumnHeader state are serializable so they can be preserved
+				// between assembly reloads and/or when restarting Unity.
+				// The non-serialized fields have to be reconstructed.
+				// After having reconstructed the state use this method before calling OverwriteSerializedFields to apply
+				// any serialized fields from a previous session.
 				if (MultiColumnHeaderState.CanOverwriteSerializedFields(m_MultiColumnHeaderState, headerState))
 					MultiColumnHeaderState.OverwriteSerializedFields(m_MultiColumnHeaderState, headerState);
 				m_MultiColumnHeaderState = headerState;
 				
+				// 根据MultiColumnHeaderState结构
+				// 创建MultiColumnHeader结构
 				var multiColumnHeader = new MyMultiColumnHeader(headerState);
 				if (firstInit)
 					multiColumnHeader.ResizeToFit ();
@@ -102,6 +120,8 @@ namespace UnityEditor.TreeViewExamples
 			}
 		}
 		
+		// 从m_MyTreeAsset中获取数据
+		// 如果没有m_MyTreeAsset，将生成随机数据
 		IList<MyTreeElement> GetData ()
 		{
 			if (m_MyTreeAsset != null && m_MyTreeAsset.treeElements != null && m_MyTreeAsset.treeElements.Count > 0)
@@ -111,11 +131,15 @@ namespace UnityEditor.TreeViewExamples
 			return MyTreeElementGenerator.GenerateRandomTree(130); 
 		}
 
+		// 如果在编辑器中，
+		// 选择发生了变化
+		// 如果选择了MyTreeAsset，则重新加载数据
 		void OnSelectionChange ()
 		{
 			if (!m_Initialized)
 				return;
 
+			// 获得选中的数据
 			var myTreeAsset = Selection.activeObject as MyTreeAsset;
 			if (myTreeAsset != null && myTreeAsset != m_MyTreeAsset)
 			{
@@ -144,6 +168,7 @@ namespace UnityEditor.TreeViewExamples
 			m_TreeView.OnGUI(rect);
 		}
 
+		// 显示下部按钮
 		void BottomToolBar (Rect rect)
 		{
 			GUILayout.BeginArea (rect);
@@ -152,11 +177,13 @@ namespace UnityEditor.TreeViewExamples
 			{
 
 				var style = "miniButton";
+				// 显示，展开所有按钮
 				if (GUILayout.Button("Expand All", style))
 				{
 					treeView.ExpandAll ();
 				}
 
+				// 显示，关闭所有按钮
 				if (GUILayout.Button("Collapse All", style))
 				{
 					treeView.CollapseAll ();
@@ -164,10 +191,12 @@ namespace UnityEditor.TreeViewExamples
 
 				GUILayout.FlexibleSpace();
 
+				// 显示，m_MyTreeAsset路径
 				GUILayout.Label (m_MyTreeAsset != null ? AssetDatabase.GetAssetPath (m_MyTreeAsset) : string.Empty);
 
 				GUILayout.FlexibleSpace ();
 
+				// 显示，"Set sorting"按钮
 				if (GUILayout.Button("Set sorting", style))
 				{
 					var myColumnHeader = (MyMultiColumnHeader)treeView.multiColumnHeader;
@@ -195,6 +224,7 @@ namespace UnityEditor.TreeViewExamples
 
 				GUILayout.Space (10);
 				
+				// 显示数值，还是显示控件
 				if (GUILayout.Button("values <-> controls", style))
 				{
 					treeView.showControls = !treeView.showControls;
